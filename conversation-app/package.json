@@ -1,0 +1,31 @@
+{
+  "name": "@twilio-paste/nextjs-template",
+  "version": "1.0.15",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@twilio-paste/core": "^15.0.0",
+    "@twilio-paste/icons": "^9.0.0",
+    "@twilio/conversations": "^2.2.0",
+    "next": "^12.1.6",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "@types/uuid": "^8.3.4",
+    "eslint": "^7.32.0",
+    "typescript": "^4.6.4"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.31"
+  }
+}
